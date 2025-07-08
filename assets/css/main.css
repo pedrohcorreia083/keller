@@ -22,9 +22,9 @@
   /* Dourado queimado — títulos, ícones importantes */
   --accent-color: #D4A857;
   /* Dourado queimado — botões, links, destaque */
-  --surface-color: #ffffff;
+  --surface-color: #F9F6F2;
   /* Branco — fundo de cards, seções internas */
-  --contrast-color: #ffffff;
+  --contrast-color: #F9F6F2;
   /* Branco — para textos sobre fundos escuros */
 }
 
@@ -32,8 +32,8 @@
 :root {
   --nav-color: #496268;
   --nav-hover-color: #D4A857;
-  --nav-mobile-background-color: #ffffff;
-  --nav-dropdown-background-color: #ffffff;
+  --nav-mobile-background-color: #F9F6F2;
+  --nav-dropdown-background-color: #F9F6F2;
   --nav-dropdown-color: #496268;
   --nav-dropdown-hover-color: #D4A857;
 }
@@ -41,15 +41,15 @@
 
 .light-background {
   --background-color: #f2f8f9;
-  --surface-color: #ffffff;
+  --surface-color: #F9F6F2;
 }
 
 .dark-background {
   --background-color: #021418;
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
+  --default-color: #F9F6F2;
+  --heading-color: #F9F6F2;
   --surface-color: #11262a;
-  --contrast-color: #ffffff;
+  --contrast-color: #F9F6F2;
 }
 
 /* Smooth scroll */
