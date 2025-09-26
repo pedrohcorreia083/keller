@@ -2287,13 +2287,18 @@ section,
   line-height: 1.2;
 }
 
+.about .row {
+  margin-bottom: 3rem;
+}
+
+
 .about .content h1 {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 30px;
   line-height: 1.2;
   color: var(--accent-color);
-  
+
 }
 
 .about .content p {
@@ -2377,6 +2382,18 @@ section,
 
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
 }
+
+.about .image-section .main-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* ainda preenche */
+  object-position: top;
+  /* prioriza a parte de cima (rosto) */
+  border-radius: 12px;
+}
+
+
 
 
 .about .image-section .image-grid {
@@ -2473,7 +2490,7 @@ section,
   }
 
   .about .image-section .main-image img {
-    height: 300px;
+    height: auto;
   }
 
   .about .image-section .image-grid .grid-item img {
